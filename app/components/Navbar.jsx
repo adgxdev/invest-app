@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className="w-full">
+        <nav className="w-full fixed">
             <div className="w-11/12 mx-auto flex items-center justify-between py-5">
                 <Link href='#' className="text-yellow-500 font-bold text-lg" >Zeaspend</Link>
-                <div className="hidden lg:flex items-center gap-3">
+                <div className="hidden lg:flex items-center gap-5">
                     <Link href='#' className="hover:text-yellow-500 duration-500">Home</Link>
                     <Link href='#' className="hover:text-yellow-500 duration-500">Plans</Link>
                     <Link href='#' className="hover:text-yellow-500 duration-500">Contact us</Link>
